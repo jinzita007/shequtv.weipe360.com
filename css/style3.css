@@ -4,7 +4,7 @@
 	}
 	.fullSlide {
 		position: relative;
-		background: #000;
+		/*background: #000;*/
 		margin: 0 auto;
 		top: 66px;
 		width: 85%
@@ -12,9 +12,11 @@
 	.fullSlide .bd {
 		position: relative;
 		z-index: 0;
+		text-align: center;
+		top: 18px;
 	}
 	.fullSlide .bd li img {
-		width: 100%;
+		width: 85%;
 		vertical-align: top;
 	}
 	.fullSlide .hd {
@@ -70,6 +72,11 @@
 		filter: alpha(opacity=80);
 		opacity: 0.8
 	}
+
+	.mac img{
+		height: 168px;
+		bottom: -45px;
+	}
 }
 
 @media screen and (min-width: 414px) and (max-width: 599px) {
@@ -88,7 +95,7 @@
 		z-index: 0;
 	}
 	.fullSlide .bd li img {
-		width: 100%;
+		width: 90%;
 		vertical-align: top;
 	}
 	.fullSlide .hd {
@@ -527,8 +534,8 @@
 		position: relative;
 		background: #000;
 		margin: 0 auto;
-		top: 131px;
-		width: 84.5%
+		top: 150px;
+		width: 63.5%
 	}
 	.fullSlide .bd {
 		position: relative;
@@ -600,7 +607,7 @@
 	z-index: 1;
 	margin-top: 0;
 	width: 100%;
-	top: 50px;
+	/*top: 50px;*/
 	position: absolute;
 	margin: 0 auto;
 }
