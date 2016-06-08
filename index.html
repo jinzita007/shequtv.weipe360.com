@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<!--设置字符编码-->
+		<meta http-equiv="Content-Type" content="text/html,charset=utf-8 /">
+		<!--不支持ie的兼容模式，所以这行代码是让ie运行最新的渲染模式-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="社区电视"/>
+        <meta name="description" content="社区黄页是提供本地生活服务信息的电视APP.居民通过家中的电视机，就可以了解到自己所在社区及周边的生活信息。用户可以浏览图文，观看社区视频；还可查询周边商家服务，并逐步实现电视端的订餐、报修等服务，以及项目投票、活动报名等互动功能，让居民足不出户，尽享便捷生活。" />
+		<!--移动设备优先-->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>社区电视黄页</title>
+		<!--引入style.css文件-->
+		<link rel="stylesheet" type="text/css" href="css/style2.css">
+		<link rel="stylesheet" type="text/css" href="css/style3.css">
+		<!--引入jquery-1.8.3.min.js文件-->
+		<script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+		<!--highchars插件文件的地址-->
+		<script type="text/javascript" src="js/highcharts.js"></script>
+		<script type="text/javascript" src="js/exporting.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.2.js"></script>
+
+		<script>
+			$(document).ready(function() {
+				$('#openSidebar').click(function() {
+					$('.wrapper').toggleClass('openNav');
+				});
+				$('#menu a').click(function() {
+					$('.wrapper').removeClass('openNav');
+				});
+			});
+		</script>
+		<style type="text/css">
+			html,
+			body,
+			wrapper {
+				height: 100%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<!--start wrapper-->
+			<!--菜单导航-->
+			<div class="sidebar">
+				<div class="clearfix k1120">
+					<div class="navBox" id="openSidebar">
+						<a href="javascript:void(0)" class="navOpen"></a>
+					</div>
+					<div id="menu">
+						<ul class="clearfix">
+							<li>
+								<a href="#home" class="nav_home current"><span>首页<br /><b>Home</b></span></a>
+							</li>
+							<li>
+								<a href="#services" class="nav_services"><span>电视理念<br /><b>Services</b></span></a>
+							</li>
+							<li>
+								<a href="#data" class="nav_data"><span>数据分析<br /><b>Data</b></span></a>
+							</li>
+							<li>
+								<a href="#case" class="nav_case"><span>开发案例<br /><b>Case</b></span></a>
+							</li>
+							<li>
+								<a href="#erweima" class="nav_erweima"><span>居民组织<br /><b>community</b></span></a>
+							</li>
+							<li>
+								<a href="#about" class="nav_about"><span>关于我们<br /><b>About us</b></span></a>
+							</li>
+							<li>
+								<a href="#contact" class="nav_contact"><span>联系我们<br /><b>Contact us</b></span></a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+			</div>
+			<!--结束菜单导航-->
+            
+			<!--社区电视的logo图片-->
+			<div class="pageMain">
+				<div id="header">
+					<div class="k1120 clearfix"><a href="" id="logo">logo</a>
+					</div>
+				</div>
+             
+				<!--社区黄页的简介及大图片-->
+				<div id="home">
+					<div class="fullSlide">
+
+						<div class="bd">
+
+							<ul>
+								<li>
+									<a target="_blank" href=""><img src="images/p1.jpg" /></a>
+								</li>
+								<li>
+									<a target="_blank" href=""><img src="images/p2.jpg" /></a>
+								</li>
+								<li>
+									<a target="_blank" href=""><img src="images/p3.jpg" /></a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="hd">
+							<ul></ul>
+						</div>
+
+						<a class="prev" href="javascript:void(0)"></a>
+						<a class="next" href="javascript:void(0)"></a>
+					</div>
+
+					<script type="text/javascript">
+						jQuery(".fullSlide").slide({
+							titCell: ".hd ul",
+							mainCell: ".bd ul",
+							effect: "leftLoop",
+							vis: "auto",
+							autoPlay: true,
+							autoPage: true,
+							trigger: "click"
+						});
+					</script>
+					<div class="mac"><img src="images/dianshi.png" /></div>
+
+				</div>
+				<div class="b_text">
+					<h1>社区电视黄页到来!</h1>
+					<h4>社区生活好便利，只需用好遥控器！</h4>
+					<p>APP端+社区电视应用区</p>
+					<p>服务小BGN提升及能力</p>
+
+				</div>
+			</div>
+		</div>
+
+	
+
+		<!--电视理念-->
+		<div id="services" class="scrol-page">
+			<h2 class="title"><span>电视理念</span></h2>
+			<h5 class="infoText">社区电视黄页（社区云平台）项目简介</h5>
+			<div class="servicesBox">
+				<ul class="k1120 clearfix">
+					<li>
+
+						<div class="servicesBoxList">
+							<div class="yun"><img src="images/yun2.png"><i class="yun_1"></i></div>
+
+							<h3>视频媒体云</h3>
+							<p>-宽带接入能力-</p>
+
+						</div>
+					</li>
+					<li>
+						<div class="servicesBoxList">
+							<div class="yun"><img src="images/yun2.png"><i class="yun_2"></i></div>
+
+							<h3>社区电商云</h3>
+							<p>-分布存储及计算能力-</p>
+
+						</div>
+					</li>
+					<li>
+						<div class="servicesBoxList">
+							<div class="yun"><img src="images/yun2.png"><i class="yun_3"></i></div>
+
+							<h3>社区社交云 </h3>
+							<p>-社区线下队伍能力-</p>
+
+						</div>
+					</li>
+					<li>
+						<div class="servicesBoxList">
+							<div class="yun"><img src="images/yun2.png"><i class="yun_4"></i></div>
+
+							<h3>物业服务云</h3>
+							<p>-为更好的服务小区业主-</p>
+
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!--电视数据分析-->
+		<div id="data" class="scrol-page">
+			<h2 class="title"><span>电视数据分析</span></h2>
+			<h5 class="infoText">智能电视发展现状及未来趋势</h5>
+			<!--柱状图分析-->
+			<div id="container" style="height:400px"></div>
+			<script type="text/javascript">
+				$(function() {
+					var colors = Highcharts.getOptions().colors,
+						categories = ['2012', '2013', '2014', '2015', '2016'],
+						name = '国内智能电视台的数据分析表',
+						data = [{
+							y: 1090,
+							color: colors[0],
+							drilldown: {
+								name: '2012',
+								/*categories: ['MSIE 6.0', 'MSIE 7.0', 'MSIE 8.0', 'MSIE 9.0'],*/
+								data: [1090],
+								color: colors[0]
+							}
+						}, {
+							y: 1710,
+							color: colors[1],
+							drilldown: {
+								name: '2013',
+								data: [1710],
+								color: colors[1]
+							}
+						}, {
+							y: 2650,
+							color: colors[2],
+							drilldown: {
+								name: '2014',
+								data: [2650],
+								color: colors[2]
+							}
+						}, {
+							y: 4055,
+							color: colors[3],
+							drilldown: {
+								name: '2015',
+								data: [4055],
+								color: colors[3]
+							}
+						}, {
+							y: 6022,
+							color: colors[4],
+							drilldown: {
+								name: '2016',
+								data: [6022],
+								color: colors[4]
+							}
+						}];
+
+					function setChart(name, categories, data, color) {
+						chart.xAxis[0].setCategories(categories, false);
+						chart.series[0].remove(false);
+						chart.addSeries({
+							name: name,
+							data: data,
+							color: color || 'white'
+						}, false);
+						chart.redraw();
+					}
+					var chart = $('#container').highcharts({
+							chart: {
+								type: 'column'
+							},
+							title: {
+								text: '国内智能电视销量走势（单位：万台）'
+							},
+							subtitle: {
+								text: '国内智能电视市场相关数据分析谈论国内智能电视未来的发展趋势'
+							},
+							xAxis: {
+								categories: categories
+							},
+							yAxis: {
+								title: {
+									text: '销量国内电视台的数量单位（万台）'
+								}
+							},
+							plotOptions: {
+								column: {
+									cursor: 'pointer',
+									point: {
+										events: {
+											click: function() {
+												var drilldown = this.drilldown;
+												if (drilldown) { // drill down
+													setChart(drilldown.name, drilldown.categories, drilldown.data, drilldown.color);
+												} else { // restore
+													setChart(name, categories, data);
+												}
+											}
+										}
+									},
+									dataLabels: {
+										enabled: true,
+										color: colors[0],
+										style: {
+											fontWeight: 'bold'
+										},
+										formatter: function() {
+											return this.y + '万台';
+										}
+									}
+								}
+							},
+							tooltip: {
+								formatter: function() {
+									var point = this.point,
+										s = this.x + ':<b>' + this.y + '万台</b><br/>';
+									if (point.drilldown) {
+										s += ' 国内智能电视';
+									} else {
+										s += ' 国内智能电视';
+									}
+									return s;
+								}
+							},
+							series: [{
+								name: name,
+								data: data,
+								color: 'white'
+							}],
+							exporting: {
+								enabled: false
+							}
+						})
+						.highcharts(); // return chart
+				});
+			</script>
+
+			<div id="container2" style="height:400px"></div>
+			<script type="text/javascript">
+				$(function() {
+					$('#container2').highcharts({
+						chart: {
+							type: 'bar'
+						},
+						title: {
+							text: '2014年中国主流国产智能电视累积激活数量'
+						},
+						subtitle: {
+							text: '（单位：万台）'
+						},
+						xAxis: {
+							categories: ['海信', 'TCL', '创维', '长虹', '康佳', '乐视', '小米'],
+							title: {
+								text: null
+							}
+						},
+						yAxis: {
+							min: 0,
+							title: {
+								text: '国内智能电视名牌销量数量 (万台)',
+								align: 'high'
+							},
+							labels: {
+								overflow: 'just'
+							}
+						},
+						tooltip: {
+							valueSuffix: ' 万台'
+						},
+						plotOptions: {
+							bar: {
+								dataLabels: {
+									enabled: true
+								}
+							}
+						},
+						legend: {
+							layout: 'vertical',
+							align: 'right',
+							verticalAlign: 'top',
+							x: -40,
+							y: 100,
+							floating: true,
+							borderWidth: 1,
+							backgroundColor: '#FFFFFF',
+							shadow: true
+						},
+						credits: {
+							enabled: false
+						},
+						series: [{
+							name: '智能电视台名牌',
+							data: [800, 650, 630, 450, 400, 150, 30]
+						}]
+					});
+				});
+			</script>
+
+		</div>
+
+		<!--案例展示-->
+		<div id="case" class="scrol-page">
+			<h2 class="title"><span>开发案例</span></h2>
+			<h5 class="infoText">我团队长期致力于移动整体解决方案的设计咨询， 定制开发，应用推广和技术运维，尤其在电视APP方面有着丰富的经验。
+</h5>
+			<div class="case k1120">
+				<ul class="clearfix">
+					<li>
+						<div class="view-tenth"><img src="images/a1.png"><a href="" class="mask" target="_blank"><h2>社区电视台2.0版本</h2></a>
+						</div>
+					</li>
+					<li>
+						<div class="view-tenth"><img src="images/a2.png"><a href="" class="mask" target="_blank"><h2>社区黄页(V1.0)
+</h2></a>
+						</div>
+					</li>
+					<li>
+						<div class="view-tenth"><img src="shequtv.weipe360.com/images/a3.png"><a href="" class="mask" target="_blank"><h2>社区电子商务
+</h2></a>
+						</div>
+					</li>
+					<li>
+						<div class="view-tenth"><img src="images/a4.png"><a href="" class="mask" target="_blank"><h2>社区安全领域的科普游戏
+</h2></a>
+						</div>
+					</li>
+
+				</ul>
+				<div class="tc moreBox"><a href="" target="_blank" class="moreBtn">查看更多</a>
+				</div>
+			</div>
+		</div>
+
+		<!--居民（街道、居委会、物业、商家、社区组织）-->
+		<div id="erweima" class="scrol-page">
+
+			<h2 class="title"><span>居民组织</span></h2>
+			<h5 class="infoText">-居民（街道、居委会、物业、商家、社区组织）</h5>
+			<div class="erweimaBox">
+
+				<ul class="erweima_03 clearfix">
+					<!--社区站长-->
+					<li>
+						<div class="erweima_02">
+							<div class="erweima_1"><img src="images/airline-mode-icon.png"></div>
+							<!--<div class="servicesBoxIcon"><i class="servicesIcon_1"></i>
+                                </div>-->
+							<h3>地方站长版主</h3>
+							<p>-如果你所在的社区、乡镇、街道已经建立了地方网站、论坛、或微信公众号及APP，你是一名社区站长或版主，真诚欢迎你的加入，共同打造营当地的综合社区平台。-</p>
+
+						</div>
+					</li>
+					<!--街道办事处等基层政府-->
+					<li>
+						<div class="erweima_02">
+							<div class="erweima_1"><img src="images/airline-mode-icon.png"></div>
+
+							<h3>街道办事处</h3>
+							<p>-满足基层政府需求，解决街、乡、村、居的政府服务信息进家庭的问题，朝阳区劲松街道电视台的模式可以借鉴。-</p>
+
+						</div>
+					</li>
+
+					<!--广告传媒公司、社区营销团队-->
+					<li>
+						<div class="erweima_02">
+							<div class="erweima_1"><img src="images/airline-mode-icon.png"></div>
+
+							<h3>广告传媒公司、社区营销团队</h3>
+							<p>-共同参与打造新的电视媒介渠道，为已有品牌客户广告主带来更实惠高效的广告渠道。-</p>
+
+						</div>
+					</li>
+
+                    <!--行业O2O团队-->
+                   <li>
+						<div class="erweima_02">
+							<div class="erweima_1"><img src="images/airline-mode-icon.png"></div>
+
+							<h3>行业O2O团队</h3>
+							<p>-各类餐饮、家政、维修等O2O团队进入家庭的最佳渠道，客厅电视下单,手机APP接单，平台联动共赢。-
+							</p>
+
+						</div>
+					</li>
+
+					<!--智能家居企业-->
+					<li>
+						<div class="erweima_02">
+							<div class="erweima_1"><img src="images/airline-mode-icon.png"></div>
+
+							<h3>智能家居企业</h3>
+							<p>为智能家居，智慧医疗企业提供方便统一的交互系统，全面实现家庭的智慧生活。
+							</p>
+
+						</div>
+					</li>
+                    
+
+					<!--硬件、智能家居、养老厂商、智慧社区-->
+					<li>
+						<div class="erweima_02">
+							<div class="erweima_1"><img src="images/airline-mode-icon.png"></div>
+
+							<h3>硬件、智能家居、养老厂商、智慧社区</h3>
+							<p>-小米、乐观、创维等，养老生活机器人、无屏电视， 您将收到社区医院惠民的 各种免费查体通知， 重大疾病的生活保养知识, 健康保健信息等-
+							</p>
+
+						</div>
+					</li>
+
+					<!--运营商-->
+					<li>
+						<div class="erweima_02">
+							<div class="erweima_1"><img src="images/airline-mode-icon.png"></div>
+
+							<h3>运营商</h3>
+							<p>-歌华有线、鹏博士三合一运营商。长期致力于移动整体解决方案的设计咨询， 定制开发，应用推广和技术运维，尤其在电视APP方面有着丰富的经验。 -
+							</p>
+
+						</div>
+					</li>
+
+					<!--社区020垂直平台-->
+					<li>
+						<div class="erweima_02">
+							<div class="erweima_1"><img src="images/airline-mode-icon.png"></div>
+
+							<h3>社区020垂直平台</h3>
+							<p>-回家吃饭、e家洁、阿姨帮、宠物亲子等APP。这里有最贴心的生活信息，您可以交友、拼车、出租房屋、查询信息APP等-</p>
+
+						</div>
+					</li>
+				</ul>
+
+			</div>
+		</div>
+
+		<!--关于我们-->
+		<div id="about" class="scrol-page">
+			<h2 class="title"><span>社区黄页简介</span></h2>
+			<div class="k1120">
+				<div class="aboutBox">
+					<h4>社区黄页是什么？</h4>
+
+					<p>社区黄页是提供本地生活服务信息的电视APP.居民通过家中的电视机，就可以了解到自己所在社区及周边的生活信息。</p>
+
+					<p>用户可以浏览图文，观看社区视频；还可查询周边商家服务，并逐步实现电视端的订餐、报修等服务，以及项目投票、活动报名等互动功能，让居民足不出户，尽享便捷生活。</p>
+
+					<p> 电视大屏的生动展示，让家里的老人小孩也能方便参与，体验其中。基于社区黄页形成的社区云平台，将把社区的居民，物业、居委会、街道办事处、商家、各服务机构及社会组织联系在一起，为和谐社区的建设提供技术新平台。</p>
+
+				</div>
+			</div>
+		</div>
+		<!--l联系我们-->
+		<div id="contact">
+			<div class="scrol-page" style="text-align:center;">
+
+				<h2 class="title"><span>联系我们</span></h2>
+				<dl><dt>联系方式</dt>
+					<dd>
+
+						<p>公司：京华纵横信息技术服务(北京)有限公司</p>
+						<p>电话：010-82952265-84 </p>
+						<p>手机：13001271702 </p>
+						<p>邮箱：200928805@qq.com</p>
+						<p>邮编：100000</p>
+					</dd>
+				</dl>
+
+			</div>
+
+		</div>
+
+		<div class="footer"> 公司地址：北京市海淀区西三旗新都环岛西程远大厦B座526室
+			<br>2015 使用社区黄页前必读 京ICP备10030918号-3&nbsp;&nbsp;
+			<p><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259449199'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/stat.php%3Fid%3D1259449199' type='text/javascript'%3E%3C/script%3E"));</script>
+		</p>
+		</div>
+
+		<!--end wrapper-->
+
+	</body>
+
+</html>

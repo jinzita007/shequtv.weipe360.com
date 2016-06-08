@@ -1,0 +1,606 @@
+@media screen and (min-width: 320px) and (max-width: 413px) {
+	* {
+		zoom: 1
+	}
+	.fullSlide {
+		position: relative;
+		background: #000;
+		margin: 0 auto;
+		top: 66px;
+		width: 85%
+	}
+	.fullSlide .bd {
+		position: relative;
+		z-index: 0;
+	}
+	.fullSlide .bd li img {
+		width: 100%;
+		vertical-align: top;
+	}
+	.fullSlide .hd {
+		position: relative;
+		z-index: 1;
+		margin-top: -20px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #000;
+		filter: alpha(opacity=60);
+		opacity: 0.6
+	}
+	.fullSlide .hd ul {
+		text-align: center;
+		padding-top: 5px;
+	}
+	.fullSlide .hd ul li {
+		cursor: pointer;
+		display: inline-block;
+		*display: inline;
+		zoom: 1;
+		width: 8px;
+		height: 8px;
+		margin: 5px;
+		background: url(images/tg_flash_p.png) -18px 0;
+		overflow: hidden;
+		font-size: 0;
+	}
+	.fullSlide .hd ul .on {
+		background-position: 0 0;
+	}
+	.fullSlide .prev,
+	.fullSlide .next {
+		z-index: 1;
+		display: block;
+		width: 55px;
+		height: 55px;
+		position: relative;
+		margin: -27% 0 0 3%;
+		float: left;
+		background: url(images/arrow.png) 0 0 no-repeat;
+		filter: alpha(opacity=40);
+		opacity: 0.4
+	}
+	.fullSlide .next {
+		background-position: right 0;
+		float: right;
+		margin-right: 3%
+	}
+	.fullSlide .prev:hover,
+	.fullSlide .next:hover {
+		filter: alpha(opacity=80);
+		opacity: 0.8
+	}
+}
+
+@media screen and (min-width: 414px) and (max-width: 599px) {
+	* {
+		zoom: 1
+	}
+	.fullSlide {
+		position: relative;
+		background: #000;
+		margin: 0 auto;
+		top: 70px;
+		width: 85.3%
+	}
+	.fullSlide .bd {
+		position: relative;
+		z-index: 0;
+	}
+	.fullSlide .bd li img {
+		width: 100%;
+		vertical-align: top;
+	}
+	.fullSlide .hd {
+		position: relative;
+		z-index: 1;
+		margin-top: -20px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #000;
+		filter: alpha(opacity=60);
+		opacity: 0.6
+	}
+	.fullSlide .hd ul {
+		text-align: center;
+		padding-top: 5px;
+	}
+	.fullSlide .hd ul li {
+		cursor: pointer;
+		display: inline-block;
+		*display: inline;
+		zoom: 1;
+		width: 8px;
+		height: 8px;
+		margin: 5px;
+		background: url(images/tg_flash_p.png) -18px 0;
+		overflow: hidden;
+		font-size: 0;
+	}
+	.fullSlide .hd ul .on {
+		background-position: 0 0;
+	}
+	.fullSlide .prev,
+	.fullSlide .next {
+		z-index: 1;
+		display: block;
+		width: 55px;
+		height: 55px;
+		position: relative;
+		margin: -27% 0 0 3%;
+		float: left;
+		background: url(images/arrow.png) 0 0 no-repeat;
+		filter: alpha(opacity=40);
+		opacity: 0.4
+	}
+	.fullSlide .next {
+		background-position: right 0;
+		float: right;
+		margin-right: 3%
+	}
+	.fullSlide .prev:hover,
+	.fullSlide .next:hover {
+		filter: alpha(opacity=80);
+		opacity: 0.8
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 619px) {
+	* {
+		zoom: 1
+	}
+	.fullSlide {
+		position: relative;
+		background: #000;
+		margin: 0 auto;
+		top: 79px;
+		width: 85.5%
+	}
+	.fullSlide .bd {
+		position: relative;
+		z-index: 0;
+	}
+	.fullSlide .bd li img {
+		width: 100%;
+		vertical-align: top;
+	}
+	.fullSlide .hd {
+		position: relative;
+		z-index: 1;
+		margin-top: -20px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #000;
+		filter: alpha(opacity=60);
+		opacity: 0.6
+	}
+	.fullSlide .hd ul {
+		text-align: center;
+		padding-top: 5px;
+	}
+	.fullSlide .hd ul li {
+		cursor: pointer;
+		display: inline-block;
+		*display: inline;
+		zoom: 1;
+		width: 8px;
+		height: 8px;
+		margin: 5px;
+		background: url(images/tg_flash_p.png) -18px 0;
+		overflow: hidden;
+		font-size: 0;
+	}
+	.fullSlide .hd ul .on {
+		background-position: 0 0;
+	}
+	.fullSlide .prev,
+	.fullSlide .next {
+		z-index: 1;
+		display: block;
+		width: 55px;
+		height: 55px;
+		position: relative;
+		margin: -27% 0 0 3%;
+		float: left;
+		background: url(images/arrow.png) 0 0 no-repeat;
+		filter: alpha(opacity=40);
+		opacity: 0.4
+	}
+	.fullSlide .next {
+		background-position: right 0;
+		float: right;
+		margin-right: 3%
+	}
+	.fullSlide .prev:hover,
+	.fullSlide .next:hover {
+		filter: alpha(opacity=80);
+		opacity: 0.8
+	}
+}
+
+@media screen and (min-width: 620px) and (max-width: 699px) {
+	* {
+		zoom: 1
+	}
+	.fullSlide {
+		position: relative;
+		background: #000;
+		margin: 0 auto;
+		top: 77px;
+		width: 85.5%
+	}
+	.fullSlide .bd {
+		position: relative;
+		z-index: 0;
+	}
+	.fullSlide .bd li img {
+		width: 100%;
+		vertical-align: top;
+	}
+	.fullSlide .hd {
+		position: relative;
+		z-index: 1;
+		margin-top: -10px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #000;
+		filter: alpha(opacity=60);
+		opacity: 0.6
+	}
+	.fullSlide .hd ul {
+		text-align: center;
+		padding-top: 5px;
+	}
+	.fullSlide .hd ul li {
+		cursor: pointer;
+		display: inline-block;
+		*display: inline;
+		zoom: 1;
+		width: 8px;
+		height: 8px;
+		margin: 5px;
+		background: url(images/tg_flash_p.png) -18px 0;
+		overflow: hidden;
+		font-size: 0;
+	}
+	.fullSlide .hd ul .on {
+		background-position: 0 0;
+	}
+	.fullSlide .prev,
+	.fullSlide .next {
+		z-index: 1;
+		display: block;
+		width: 55px;
+		height: 55px;
+		position: relative;
+		margin: -27% 0 0 3%;
+		float: left;
+		background: url(images/arrow.png) 0 0 no-repeat;
+		filter: alpha(opacity=40);
+		opacity: 0.4
+	}
+	.fullSlide .next {
+		background-position: right 0;
+		float: right;
+		margin-right: 3%
+	}
+	.fullSlide .prev:hover,
+	.fullSlide .next:hover {
+		filter: alpha(opacity=80);
+		opacity: 0.8
+	}
+}
+
+@media screen and (min-width: 700px) and (max-width: 768px) {
+	* {
+		zoom: 1
+	}
+	.fullSlide {
+		position: relative;
+		background: #000;
+		margin: 0 auto;
+		top: 82px;
+		width: 84.5%
+	}
+	.fullSlide .bd {
+		position: relative;
+		z-index: 0;
+	}
+	.fullSlide .bd li img {
+		width: 100%;
+		vertical-align: top;
+	}
+	.fullSlide .hd {
+		position: relative;
+		z-index: 1;
+		margin-top: 0px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #000;
+		filter: alpha(opacity=60);
+		opacity: 0.6
+	}
+	.fullSlide .hd ul {
+		text-align: center;
+		padding-top: 5px;
+	}
+	.fullSlide .hd ul li {
+		cursor: pointer;
+		display: inline-block;
+		*display: inline;
+		zoom: 1;
+		width: 8px;
+		height: 8px;
+		margin: 5px;
+		background: url(images/tg_flash_p.png) -18px 0;
+		overflow: hidden;
+		font-size: 0;
+	}
+	.fullSlide .hd ul .on {
+		background-position: 0 0;
+	}
+	.fullSlide .prev,
+	.fullSlide .next {
+		z-index: 1;
+		display: block;
+		width: 55px;
+		height: 55px;
+		position: relative;
+		margin: -27% 0 0 3%;
+		float: left;
+		background: url(images/arrow.png) 0 0 no-repeat;
+		filter: alpha(opacity=40);
+		opacity: 0.4
+	}
+	.fullSlide .next {
+		background-position: right 0;
+		float: right;
+		margin-right: 3%
+	}
+	.fullSlide .prev:hover,
+	.fullSlide .next:hover {
+		filter: alpha(opacity=80);
+		opacity: 0.8
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 959px) {
+	* {
+		zoom: 1
+	}
+	.fullSlide {
+		position: relative;
+		background: #000;
+		margin: 0 auto;
+		top: 96px;
+		width: 84.5%
+	}
+	.fullSlide .bd {
+		position: relative;
+		z-index: 0;
+	}
+	.fullSlide .bd li img {
+		width: 100%;
+		vertical-align: top;
+	}
+	.fullSlide .hd {
+		position: relative;
+		z-index: 1;
+		margin-top: 0px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #000;
+		filter: alpha(opacity=60);
+		opacity: 0.6
+	}
+	.fullSlide .hd ul {
+		text-align: center;
+		padding-top: 5px;
+	}
+	.fullSlide .hd ul li {
+		cursor: pointer;
+		display: inline-block;
+		*display: inline;
+		zoom: 1;
+		width: 8px;
+		height: 8px;
+		margin: 5px;
+		background: url(images/tg_flash_p.png) -18px 0;
+		overflow: hidden;
+		font-size: 0;
+	}
+	.fullSlide .hd ul .on {
+		background-position: 0 0;
+	}
+	.fullSlide .prev,
+	.fullSlide .next {
+		z-index: 1;
+		display: block;
+		width: 55px;
+		height: 55px;
+		position: relative;
+		margin: -27% 0 0 3%;
+		float: left;
+		background: url(images/arrow.png) 0 0 no-repeat;
+		filter: alpha(opacity=40);
+		opacity: 0.4
+	}
+	.fullSlide .next {
+		background-position: right 0;
+		float: right;
+		margin-right: 3%
+	}
+	.fullSlide .prev:hover,
+	.fullSlide .next:hover {
+		filter: alpha(opacity=80);
+		opacity: 0.8
+	}
+}
+
+@media screen and (min-width: 960px) and (max-width: 1120px) {
+	* {
+		zoom: 1
+	}
+	.fullSlide {
+		position: relative;
+		background: #000;
+		margin: 0 auto;
+		top: 106px;
+		width: 84.5%
+	}
+	.fullSlide .bd {
+		position: relative;
+		z-index: 0;
+	}
+	.fullSlide .bd li img {
+		width: 100%;
+		vertical-align: top;
+	}
+	.fullSlide .hd {
+		position: relative;
+		z-index: 1;
+		margin-top: 0px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #000;
+		filter: alpha(opacity=60);
+		opacity: 0.6
+	}
+	.fullSlide .hd ul {
+		text-align: center;
+		padding-top: 5px;
+	}
+	.fullSlide .hd ul li {
+		cursor: pointer;
+		display: inline-block;
+		*display: inline;
+		zoom: 1;
+		width: 8px;
+		height: 8px;
+		margin: 5px;
+		background: url(images/tg_flash_p.png) -18px 0;
+		overflow: hidden;
+		font-size: 0;
+	}
+	.fullSlide .hd ul .on {
+		background-position: 0 0;
+	}
+	.fullSlide .prev,
+	.fullSlide .next {
+		z-index: 1;
+		display: block;
+		width: 55px;
+		height: 55px;
+		position: relative;
+		margin: -27% 0 0 3%;
+		float: left;
+		background: url(images/arrow.png) 0 0 no-repeat;
+		filter: alpha(opacity=40);
+		opacity: 0.4
+	}
+	.fullSlide .next {
+		background-position: right 0;
+		float: right;
+		margin-right: 3%
+	}
+	.fullSlide .prev:hover,
+	.fullSlide .next:hover {
+		filter: alpha(opacity=80);
+		opacity: 0.8
+	}
+	.b_text {
+		margin-top: 300px;
+	}
+}
+
+@media screen and (min-width: 1121px) and (max-width: 1920px) {
+	* {
+		zoom: 1
+	}
+	.fullSlide {
+		position: relative;
+		background: #000;
+		margin: 0 auto;
+		top: 131px;
+		width: 84.5%
+	}
+	.fullSlide .bd {
+		position: relative;
+		z-index: 0;
+	}
+	.fullSlide .bd li img {
+		width: 100%;
+		vertical-align: top;
+	}
+	.fullSlide .hd {
+		position: relative;
+		z-index: 1;
+		margin-top: 15px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		background: #000;
+		filter: alpha(opacity=60);
+		opacity: 0.6
+	}
+	.fullSlide .hd ul {
+		text-align: center;
+		padding-top: 5px;
+	}
+	.fullSlide .hd ul li {
+		cursor: pointer;
+		display: inline-block;
+		*display: inline;
+		zoom: 1;
+		width: 8px;
+		height: 8px;
+		margin: 5px;
+		background: url(images/tg_flash_p.png) -18px 0;
+		overflow: hidden;
+		font-size: 0;
+	}
+	.fullSlide .hd ul .on {
+		background-position: 0 0;
+	}
+	.fullSlide .prev,
+	.fullSlide .next {
+		z-index: 1;
+		display: block;
+		width: 55px;
+		height: 55px;
+		position: relative;
+		margin: -27% 0 0 3%;
+		float: left;
+		background: url(images/arrow.png) 0 0 no-repeat;
+		filter: alpha(opacity=40);
+		opacity: 0.4
+	}
+	.fullSlide .next {
+		background-position: right 0;
+		float: right;
+		margin-right: 3%
+	}
+	.fullSlide .prev:hover,
+	.fullSlide .next:hover {
+		filter: alpha(opacity=80);
+		opacity: 0.8
+	}
+	.b_text {
+		margin-top: 300px;
+	}
+}
+
+.mac img {
+	z-index: 1;
+	margin-top: 0;
+	width: 100%;
+	top: 50px;
+	position: absolute;
+	margin: 0 auto;
+}
